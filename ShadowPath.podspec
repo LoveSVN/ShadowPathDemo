@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author        = { "iCodesign" => "leimagnet@gmail.com" }
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
-  s.source_files  = "ShadowPath", "ShadowPath/**/*.{c,h,m,swift}"
+  s.source_files  = "ShadowPath/**/*.{c,h,m,swift}"
   s.libraries = "z" 
   s.pod_target_xcconfig = { 
     'OTHER_CFLAGS' => '-DHAVE_CONFIG_H -DUSE_CRYPTO_OPENSSL -DLIB_ONLY -DUDPRELAY_LOCAL -DMODULE_LOCAL', 
