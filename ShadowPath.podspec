@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author        = { "iCodesign" => "leimagnet@gmail.com" }
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
+  s.source  = {:git => 'https://github.com/LoveSVN/ShadowPathDemo.git'}
   s.source_files  = "ShadowPath/**/*.{c,h,m,swift}"
   s.libraries = "z" 
   s.pod_target_xcconfig = { 
